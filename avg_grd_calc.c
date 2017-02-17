@@ -1,4 +1,4 @@
-    
+#include <stdio.h>
 int main() {
         int grades[2][5];
         float average;
