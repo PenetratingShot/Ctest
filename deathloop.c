@@ -1,3 +1,5 @@
+/* Running this will create an infinite loop */ 
+
 #include <stdio.h>
 
 int main(){
