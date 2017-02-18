@@ -4,7 +4,7 @@
 
 int main(){
  while (2 > 1){
-  printf("Lol"); 
+  printf("Lol \n"); 
  }
   return 0;
 }
