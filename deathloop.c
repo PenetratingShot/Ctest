@@ -12,7 +12,7 @@ or harm that comes to your computer while running this code.
 
 int main(){
  while (2 > 1){
-  printf("Lol \n"); 
+  printf("Lol \n We pranked you so hard \n you are going to die now \n lol \n I am a prankster gangster"); 
  }
-  return 0;
+  return 00000000000000000000000000000000000000000000000000000000000000;
 }
