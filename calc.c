@@ -3,7 +3,7 @@
 #include <math.h>
 #include <stdlib.h>
 
-#define Key "Enter the operations you want to do:"
+#define KEY "Enter the operations you want to do:"
 
 // Function Declarations
 void addition();
