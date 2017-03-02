@@ -78,3 +78,25 @@ int main() {
    }
   }
 }
+
+// Defining Functions
+void calculator_operations() {
+ // Cls use to clear
+ printf("\n             This is a calculator... \n\n");
+ 
+ printf("******* Press 'Q' or 'q' to quit  ");
+ printf("the program *******\n");
+ printf("***** Press 'H' or 'h' to display  ");
+ printf("below options *****\n\n");
+ printf("Enter 'C' or 'c' to clear the screen and");
+ printf(" display availible options \n\n");
+  
+ printf("Operations: \n"); 
+ printf("Enter '+' for Addition \n");
+ printf("Enter '-' for Subtraction \n");
+ printf("Enter '*' for Multiplication \n");
+ printf("Enter '/' for Division \n");
+ printf("Enter '?' for Modulus \n");
+ printf("Enter '^' for Power \n");
+ printf("Enter '!' for Factorial \n");
+}
