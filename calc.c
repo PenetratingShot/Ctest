@@ -20,7 +20,7 @@ void calculator_operations();
 
 int main() {
   int X=1;
-  char Clac_oprn;
+  char Calc_oprn;
   
   //Func callback
   calculator_operations();
