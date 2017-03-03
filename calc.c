@@ -13,6 +13,7 @@ void division();
 void modulus();
 void power();
 void factorial();
+void sqrt();
 void calculator_operations();
 
 
@@ -60,6 +61,10 @@ int main() {
      case '!': factorial();
        break;
        
+     //Case Square Root
+     case '@': sqrt();
+       break();
+       
      // Func Display Key
      case 'H':
      case 'h': calculator_operations();
@@ -75,6 +80,14 @@ int main() {
      case 'c': system("cls");
        calculator_operations();
        break;
+       
+     default : system("cls");
+        
+    printf("\n**********You have entered unavailable option");
+    printf("***********\n");
+    printf("\n*****Please Enter any one of below available ");
+    printf("options****\n");
+                      calculator_operations();
    }
   }
 }
@@ -99,4 +112,22 @@ void calculator_operations() {
  printf("Enter '?' for Modulus \n");
  printf("Enter '^' for Power \n");
  printf("Enter '!' for Factorial \n");
+ printf("Enter '@' for Square Root \n");
 }
+
+// Function for Addition
+void addition() {
+ int n, total=0, k=0, number;
+ printf("\nEnter the amount of elements you want to add: ");
+ scanf("%d",&n);
+ printf("Please enter %d numbers one by one: \n",n);
+ while(k<n) {
+   scanf("%d",&number);
+   total=total+number;
+   k=k+1;
+ }
+ printf("The sum of %d numbers is %d \n",n,total);
+}
+void subtraction() {
+  
+} 
