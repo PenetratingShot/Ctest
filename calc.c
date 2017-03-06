@@ -129,5 +129,63 @@ void addition() {
  printf("The sum of %d numbers is %d \n",n,total);
 }
 void subtraction() {
-  
+  int a, b, c=0;
+  printf("\nPlease enter the first number: ");
+  scanf("%d", &a);
+  printf("Please enter a second number: ");
+  scanf("%d", &b);
+  c = a - b;
+  printf("\n%d minus %d is equal to %d", a, b, c);
 } 
+void multiplication() {
+ int a, b, mul=0;
+ printf("Please enter the first number: ");
+ scanf("%d", &a);
+ printf("Please enter second number: ");
+ scanf("%d", &b);
+ mul = a*b;
+ printf("The product of %d and %d is %d", a, b, mul);
+}
+void division() {
+ int a, b, d=0;
+ printf("\nPlease enter the first number: ");
+ scanf("%d", &a);
+ printf("Please enter the second number: ");
+ scanf("%d", &b);
+ d = a/b;
+ printf("\nThe quotient of %d and %d is %d\n", a, b, d);
+}
+void modulous() {
+ int a, b, m=0;
+ printf("\nPlease enter the first number: ");
+ scanf("%d", &a);
+ printf("Please enter the second number: ");
+ scanf("%d", &b);
+ m = a % b;
+ printf("\nThe remainder of the quotient of %d and %d is %d\n", a, b, m);
+  if (m == 0) {
+    printf("\nPlease enter numbers that can output a remainder other than 0");
+  }
+  else{
+    printf("\nThe remainder of the quotient of %d and %d is %d", a, b, m);
+  }
+}
+void power() {
+ int a, num, p;
+ printf("\nPlease enter the first number: ");
+ printf("number: "); 
+ scanf("%lf", &a);
+  
+ printf("power: ");
+ scanf("%lf", num);
+ 
+ p = power(a,num);
+  
+ printf("\n%lf to the power of %lf is %lf \n", a, num, p);
+}
+int factorial() {
+ int 1,fact=1,num;
+  
+ printf("\nEnter a number to find the factorial: ");
+}
+}
