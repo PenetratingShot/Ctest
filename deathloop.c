@@ -1,5 +1,5 @@
 /* 
-Ccreated by Shreyas Lad and Talon Bragg 2017
+Created by Shreyas Lad and Talon Bragg 2017
 
 Licensed under the MIT License (see root)
 
